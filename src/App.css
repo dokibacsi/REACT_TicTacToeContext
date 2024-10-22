@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+  background-color: #282c34;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mezo{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 52pt;
+}
+
+article{
+  gap: 10px;
+  max-width: 650px;
+  padding: 20px;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: white;
+}
